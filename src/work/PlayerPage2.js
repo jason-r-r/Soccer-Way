@@ -216,7 +216,7 @@ function PlayerPage2({ leagueContentPlayerIndex, fetchPlayer, leagueKeyChosen,
 
                     </div>
 
-                    <div className="player-info-box pink-back">
+                    <div className="player-info-box">
                         <div>
                             <div className="h-font-weight">Jersey</div>
                             {/* <div className="h-lower-font">{playerNumber}</div> */}
@@ -234,7 +234,7 @@ function PlayerPage2({ leagueContentPlayerIndex, fetchPlayer, leagueKeyChosen,
                         </div>
                     </div>
 
-                    <div className="player-info-box pink-back">
+                    <div className="player-info-box">
                         <div>
                             <div className="h-font-weight">Weight</div>
                             <div className="height-width-container">

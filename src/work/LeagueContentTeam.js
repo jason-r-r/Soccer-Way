@@ -11,7 +11,7 @@ function LeagueContentTeam({ leagueContentLoading, leagueData }) {
                 <div className="league-content-teams-grid-container">
                     
                     {
-                        leagueContentLoading && leagueData.Teams === undefined ? 
+                        leagueContentLoading === undefined && leagueData.Teams === undefined ? 
                         
                         null
 

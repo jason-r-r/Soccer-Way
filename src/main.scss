@@ -581,3 +581,15 @@ pre {
         margin-top: 50px; 
     }
 }
+
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+    .back-img {
+        height: 50em !important; 
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 3000px) {
+    .back-img {
+        height: 100% !important; 
+    }
+}

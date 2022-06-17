@@ -127,7 +127,7 @@ function MainPage({ fetchTeams, teamData }) {
 
             <div className="home-page-container" >
 
-                <div className="back-img"></div>
+                <div className="back-img" style={{height: '100%'}}></div>
                 
                 <div className="open-up-nav" ref={navWidthAnim}>
                     <div className="x-nav" style={{display: navDisplay}}>
@@ -137,7 +137,7 @@ function MainPage({ fetchTeams, teamData }) {
                         <div className="column-nav-item-pink" style={{display: navDisplay, backgroundColor: 'rgb(35, 35, 35)'}}>
                             <Link to="/Soccer-Way">
                                 <pre>
-                                    Home     
+                                    Home 
                                 </pre>
                         </Link>
                         </div>
